@@ -30,6 +30,7 @@ export default function App() {
         {courseGoals.map((goal) => (
           <Text key={goal}>{goal}</Text>
         ))}
+        <Text>mini test</Text>
       </View>
     </View>
   );
